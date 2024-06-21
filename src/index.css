@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #0A0B14;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 96%;
+  letter-spacing: -5%;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-image {
+  background: linear-gradient(90deg, #7953DC 0%, #3AAAD9 100%);
+}
+
+.position-icon-search {
+  top: 1.67rem;
+  left: 16.4rem;
+}
+
+.size-search {
+  width: 38rem;
+  height: 2rem;
+}
+
+.bg-search {
+  background-color: #1C141E;
+}
+
+.bg-nav-link {
+  background-color: #7855DC;
+}
+
+.bg-active {
+  background-color: #54399F;
+  opacity: 0.8;
+}
+
+.w-text-image {
+  width: 30rem;
+}
+
+.color-button-subscribe {
+  background-color: #9372e6;
+}
+
+.bg-card {
+  background-color: #211626;
+}
+
+.bg-options {
+  background-color: #322638;
+}
+
+#card:hover #options {
+  display: block;
+}

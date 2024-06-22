@@ -27,7 +27,9 @@ export default function Header() {
                 <NavLink className={({ isActive }) => isActive ? 'bg-active px-4 py-2 rounded-3xl' : ''} to={'/descubrir'}>Descubrir</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-active px-4 py-2 rounded-3xl' : ''} to={'/favoritos'}>Favoritos</NavLink>
                 <NavLink className='text-white bg-nav-link px-7 py-2 rounded-3xl' to={'/subir_obra'}>Subir Obra</NavLink>
-                <img src="/foto_perfil.png" alt="Foto Perfil" />
+                <NavLink to={''}>
+                    <img src="/foto_perfil.png" alt="Foto perfil" />
+                </NavLink>
             </nav>
         </header>
     )

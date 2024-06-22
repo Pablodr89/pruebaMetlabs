@@ -4,10 +4,10 @@ export default function Home() {
     return (
         <>
             <div className="text-white bg-image rounded-lg flex justify-between items-center md:overflow-hidden md:max-h-56 lg:overflow-visible lg:max-h-96">
-                <div className="py-5 md:ps-10 lg:ps-20 w-text-image text-center">
+                <div className="py-5 md:ps-10 lg:ps-20 w-text-image text-center md:text-start">
                     <h2 className="raleway-bold text-2xl md:text-3xl lg:text-6xl text-wrap">Membresía Premium</h2>
 
-                    <div className="mt-5 flex justify-center gap-5">
+                    <div className="mt-5 flex justify-center md:justify-start gap-5">
                         <button className="rounded-3xl color-button-subscribe w-28 md:w-36 py-2 px-2 md:px-7 text-sm">Suscribirse</button>
                         <button className="rounded-3xl border-2 w-36 md:w-44 py-2 px-2 md:px-7 text-sm">Descubrir planes</button>
                     </div>

@@ -27,16 +27,6 @@ body {
   background: linear-gradient(90deg, #7953DC 0%, #3AAAD9 100%);
 }
 
-.position-icon-search {
-  top: 1.67rem;
-  left: 16.4rem;
-}
-
-.size-search {
-  width: 38rem;
-  height: 2rem;
-}
-
 .bg-search {
   background-color: #1C141E;
 }
@@ -50,14 +40,6 @@ body {
   opacity: 0.8;
 }
 
-.w-text-image {
-  width: 30rem;
-}
-
-.color-button-subscribe {
-  background-color: #9372e6;
-}
-
 .bg-card {
   background-color: #211626;
 }
@@ -66,6 +48,48 @@ body {
   background-color: #322638;
 }
 
-#card:hover #options {
-  display: block;
+.position-icon-search {
+  top: 1.67rem;
+  left: 16.4rem;
+}
+
+.size-search {
+  width: 38rem;
+  height: 2rem;
+}
+
+.w-text-image {
+  width: 30rem;
+}
+
+.color-button-subscribe {
+  background-color: #9372e6;
+}
+
+@media (min-width: 768px) {
+  .position-icon-search {
+    top: 1.5rem;
+    left: 12.3rem;
+  }
+
+  .size-search {
+    width: 10rem;
+    height: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .position-icon-search {
+    top: 1.67rem;
+    left: 16.4rem;
+  }
+
+  .size-search {
+    width: 38rem;
+    height: 2rem;
+  }
+
+  #card:hover #options {
+    display: block;
+  }
 }

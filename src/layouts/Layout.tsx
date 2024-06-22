@@ -7,7 +7,7 @@ export default function Layout() {
     <>
       <Header />
 
-      <main className='px-16 pt-2'>
+      <main className='px-4 md:px-8 lg:px-16 pt-2'>
         <Outlet />
       </main>
     </>

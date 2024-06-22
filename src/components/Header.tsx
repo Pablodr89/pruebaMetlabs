@@ -18,7 +18,7 @@ export default function Header() {
                             <span className=''>
                                 <MagnifyingGlassIcon className='text-white size-4 absolute position-icon-search' />
                             </span>
-                            <input type='search' className='dm-sans-regular bg-search size-search rounded-3xl ps-10 text-base' placeholder='Search Item, Collection and Account' />
+                            <input type='search' id='search' className='dm-sans-regular bg-search size-search rounded-3xl ps-10 text-base' placeholder='Search Item, Collection and Account' />
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-20">
+            <div className="grid grid-cols-1 md:grid md:grid-cols-2 lg:flex lg:justify-between lg:gap-10 mb-20">
                 <Card />
                 <Card />
                 <Card />

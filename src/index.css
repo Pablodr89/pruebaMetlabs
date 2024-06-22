@@ -7,6 +7,10 @@ body {
   background-color: #0A0B14;
 }
 
+input::placeholder {
+  font-size: .875rem;
+}
+
 .raleway-bold {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -60,6 +64,10 @@ body {
 
 .w-text-image {
   width: 30rem;
+}
+
+.w-info {
+  max-width: 15.14rem;
 }
 
 .color-button-subscribe {

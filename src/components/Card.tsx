@@ -6,13 +6,13 @@ import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/24/solid"
 export default function Card() {
     return (
         <>
-            <div id="card" className="max-w-60 max-h-72 mx-auto mb-12">
+            <div id="card" className="max-w-60 max-h-72 mx-auto lg:mx-0 mb-12">
                 <div className="overflow-hidden">
                     <img src="/image_card.png" alt="Imagen card" />
                 </div>
 
-                <div className="px-5 py-6 bg-card rounded-lg">
-                    <h2 className="raleway-bold text-white text-xl">Javier Cantante</h2>
+                <div className="px-5 py-6 bg-card rounded-b-lg">
+                    <h2 className="raleway-bold text-white text-xl">Jaime Cantante</h2>
                     <div className="flex gap-2 mt-2 lg:mt-3">
                         <NavLink to={''}>
                             <img src="/foto_perfil.png" alt="Foto perfil" className="size-6" />
